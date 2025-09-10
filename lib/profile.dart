@@ -39,7 +39,7 @@ class Profile extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.phone, size: 23, color: Colors.white),
                   title: Text("phone"),
-                  subtitle: Text("3456789"),
+                  subtitle: Text("9961649831"),
                 ),
               ),
             ),
@@ -47,29 +47,32 @@ class Profile extends StatelessWidget {
               height: 75,
               width: double.infinity,
               child: Card(
-                color: Colors.brown,
+                color: Colors.blueGrey,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10)
-
-                ),child: ListTile(
-                  leading: Icon(Icons.email),title: Text("email"),subtitle: Text("diyafalinn@gmail.com"),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: ListTile(
+                  leading: Icon(Icons.email),
+                  title: Text("email"),
+                  subtitle: Text("diyafalinn@gmail.com"),
                 ),
               ),
-            ), SizedBox(
+            ),
+            SizedBox(
               height: 75,
               width: double.infinity,
               child: Card(
-                color: Colors.brown,
+                color: Colors.blueGrey,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10)
-
-                ),child: ListTile(
-                  leading: Icon(Icons.map),title: Text("location"),subtitle: Text("calicut"),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: ListTile(
+                  leading: Icon(Icons.map),
+                  title: Text("location"),
+                  subtitle: Text("calicut"),
                 ),
               ),
-            )
-
-
+            ),
           ],
         ),
       ),
